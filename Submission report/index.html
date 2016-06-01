@@ -7,8 +7,10 @@
 	<title>Submission report</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src = "fancybox/jquery.fancybox.js"></script>
 	<script src="js/script.js"></script>
 </head>
 
@@ -26,20 +28,20 @@
 			<div class="forms">
 				<div class="form-signin " id="registration">
 					<div class="text"> Я зашел на <a href="https://github.com">github.com</a></div>
-					<img src="img/Step1.png" alt="Step1">
+					<a class="fancybox" href="img/Step1.png"><img src="img/Step1.png" alt="Step1"></a>
 					<div class="text"> Заполнил поля - username, email и нажал кнопку <span>Sign up for GitHub</span></div>
-					<img src="img/Step2.png" alt="Step2">
+					<a class="fancybox" href="img/Step2.png"><img src="img/Step2.png" alt="Step2"></a>
 					<div class="text"> Здесь я выбрал бесплатный репозиторий и нажал кнопку <span>Finish sign up</span>
 						<br> На почту, которую я указал при регистрации, пришло письмо с просьбой подтвердить регистрацию и email</div>
-					<img src="img/Step3.png" alt="Step3">
+					<a class="fancybox" href="img/Step3.png"><img src="img/Step3.png" alt="Step3"></a>
 					<div class="text"> GitHub сразу предлагает создать новый репозиторий, я ввел название и нажал кнопку <span>Create repository</span></div>
 					<div>Регистрация закончена. Репозиторий создан</div>
 					<button id="next" type="button" class="btn btn-default myButton btnNext"> Следующий &gt;</button>
 				</div>
 				<div class="form-select" id="add_collaborators">
-					<img src="img/Step4.png" alt="Step4">
+					<a class="fancybox" href="img/Step4.png"><img src="img/Step4.png" alt="Step4"></a>
 					<div class="text"> Для того чтобы добавить соавтора я выбрал вкладку <span>Settings</span></div>
-					<img src="img/Step5.png" alt="Step5">
+					<a class="fancybox" href="img/Step5.png"><img src="img/Step5.png" alt="Step5"></a>
 					<div class="text"> Выбрал слева вкладку <span>Collaborators</span>
 						<br> В поле ввел почту <span>Smoktii@gmail.com</span> и нажал <span>Add collaborator</span> </div>
 					<div>Соавтор добавлен</div>
@@ -48,7 +50,7 @@
 				</div>
 				<div class="form-pictures ui-tabs-panel  ui-tabs-hide" id="download_project">
 					<div class="text"> Для использования GitHub с локального компьютера я скачал и установил <a href="https://git-scm.com/downloads">Git Bash</a><br></div>
-					<img src="img/Step6.png" alt="Step6">
+					<a class="fancybox" href="img/Step6.png"><img src="img/Step6.png" alt="Step6"></a>
 					<div class = "text"> В Git Bash я захожу в необходимую папку с помощью команды <span>cd</span>.<br>
 						Выполняю 2 команды <span>git init</span> и <span>git clone</span> для того чтобы связать текущую папку с GitHub и сделать ее копию у себя на компьютере. <br>
 						Далее я использую команды: <br ><span>git add .</span> для добавления изменений в текущую папку.<br>
